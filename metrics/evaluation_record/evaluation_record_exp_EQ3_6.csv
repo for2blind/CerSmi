@@ -1,0 +1,9 @@
+uuid,wrkname,scaling,scheduler,start_time,end_time,slo,gpus,collected,csv
+5fe9ae93-8e3e-442b-8921-ad54561c5443,ME,dasheng,dasheng,1705250969,1705251600,10,8,0,metrics/wula/exp_EQ3_6/ME/dasheng/1705250969/
+cf631c2e-eed1-487b-8229-acac67530e27,ME,dasheng,dasheng,1705251790,1705252426,10,8,0,metrics/wula/exp_EQ3_6/ME/dasheng/1705251790/
+5dde440e-969f-4196-aacd-2ff5d7d78433,ME,dasheng,dasheng,1705254266,1705254885,10,8,0,metrics/wula/exp_EQ3_6/ME/dasheng/1705254266/
+189a25d4-e9da-4d46-8506-4701f5eb90ae,ME,dasheng,dasheng,1705288501,1705289119,10,16,0,metrics/wula/exp_EQ3_6/ME/dasheng/1705288501/
+c7275759-cfcb-4cef-8766-10bb2a85851a,ME,dasheng,dasheng,1705289277,1705289902,10,24,0,metrics/wula/exp_EQ3_6/ME/dasheng/1705289277/
+b763c39a-c13c-4acb-8d45-750a2f08669a,ME,dasheng,dasheng,1705290161,1705290780,10,32,0,metrics/wula/exp_EQ3_6/ME/dasheng/1705290161/
+690faea2-e8d5-4cbd-83fc-4b46a75c39b5,ME,dasheng,dasheng,1705290893,1705291506,10,8,0,metrics/wula/exp_EQ3_6/ME/dasheng/1705290893/
+2073bce6-469f-4699-ba26-2083b791f49c,ME,dasheng,dasheng,1705291634,1705292266,10,32,0,metrics/wula/exp_EQ3_6/ME/dasheng/1705291634/

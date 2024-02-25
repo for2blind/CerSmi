@@ -1,0 +1,5 @@
+wrkname,model,benchmark,init_time,version,deploy
+PARAM,BERT,PARAM-8,2024-01-18 04:30:25,1.0.1.qitian,0
+PARAM,GPT,PARAM-8,2024-01-18 04:30:25,1.0.1.qitian,1
+PARAM,LLAMA,PARAM-7,2024-01-18 04:30:25,1.0.1.qitian,0
+PARAM,WHISPER,PARAM-3,2024-01-18 04:30:25,1.0.1.qitian,0

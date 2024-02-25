@@ -1,0 +1,17 @@
+uuid,wrkname,scaling,scheduler,start_time,end_time,slo,gpus,collected,csv
+189a25d4-e9da-4d46-8506-4701f5eb90ae,ME,dasheng,dasheng,1705288501,1705289119,10,16,1,metrics/wula/exp_EQ3_6/ME/dasheng/1705288501/
+c7275759-cfcb-4cef-8766-10bb2a85851a,ME,dasheng,dasheng,1705289277,1705289902,10,24,1,metrics/wula/exp_EQ3_6/ME/dasheng/1705289277/
+690faea2-e8d5-4cbd-83fc-4b46a75c39b5,ME,dasheng,dasheng,1705290893,1705291506,10,8,1,metrics/wula/exp_EQ3_6/ME/dasheng/1705290893/
+2073bce6-469f-4699-ba26-2083b791f49c,ME,dasheng,dasheng,1705291634,1705292266,10,32,1,metrics/wula/exp_EQ3_6/ME/dasheng/1705291634/
+8f6b7e6c-2039-4a98-81a4-d6e206b1decd,INFless,dasheng,dasheng,1705307289,1705307926,10,16,1,metrics/wula/exp_EQ3_7/whole/dasheng/1705307289/
+80c85133-f4c5-40e5-b1f1-0ff68214032c,INFless,dasheng,dasheng,1705308449,1705309082,10,24,1,metrics/wula/exp_EQ3_7/whole/dasheng/1705308449/
+3eaa358c-8d32-4b81-8b6d-c1fcbb8e9f40,INFless,dasheng,dasheng,1705309232,1705309872,10,32,1,metrics/wula/exp_EQ3_7/whole/dasheng/1705309232/
+b5fdf644-6758-42ec-9c83-68c95d982703,INFless,dasheng,dasheng,1705310085,1705310716,10,8,1,metrics/wula/exp_EQ3_7/whole/dasheng/1705310085/
+3f88ed47-3cee-4fce-9c98-3c6616c66d62,DARK,dasheng,dasheng,1705311121,1705311750,10,8,1,metrics/wula/exp_EQ3_8/PARAM/dasheng/1705311121/
+9d69cef7-869c-4dc4-a890-1a4b4e5b787f,DARK,dasheng,dasheng,1705311979,1705312593,10,16,1,metrics/wula/exp_EQ3_8/PARAM/dasheng/1705311979/
+c27c403c-c1d1-41a9-912d-af64b77cc855,DARK,dasheng,dasheng,1705313244,1705313877,10,24,1,metrics/wula/exp_EQ3_8/PARAM/dasheng/1705313244/
+06399449-80ce-415a-a6fb-9e7c816fabbe,DARK,dasheng,dasheng,1705314053,1705314687,10,32,1,metrics/wula/exp_EQ3_8/PARAM/dasheng/1705314053/
+1de7aa17-d966-4476-b3e9-af3f782ebb67,Infer,dasheng,dasheng,1705315220,1705315837,10,8,1,metrics/wula/exp_EQ3_9/PARAM/dasheng/1705315220/
+11b46371-1fed-43f6-8d1b-8df1073ffe58,Infer,dasheng,dasheng,1705316023,1705316652,10,16,1,metrics/wula/exp_EQ3_9/PARAM/dasheng/1705316023/
+62399e6f-7a55-48f6-9ca3-6bad646890e2,Infer,dasheng,dasheng,1705316844,1705317470,10,24,1,metrics/wula/exp_EQ3_9/PARAM/dasheng/1705316844/
+6832014e-057d-4958-98dc-989c8d4422fb,Infer,dasheng,dasheng,1705317705,1705318332,10,32,1,metrics/wula/exp_EQ3_9/PARAM/dasheng/1705317705/

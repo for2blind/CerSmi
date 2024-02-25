@@ -1,0 +1,6 @@
+wrkname,model,benchmark,init_time,version,deploy
+ME,GPT,ME-11,2023-12-31 15:14:11,1.0.1.qitian,1
+LATENCY,GPT,LATENCY-25,2023-12-31 15:14:11,1.0.1.qitian,1
+PARAM,GPT,PARAM-8,2023-12-31 15:14:11,1.0.1.qitian,1
+TIME,GPT,TIME-8,2023-12-31 15:14:11,1.0.1.qitian,1
+whole,GPT,opt-66b-whole,2023-12-31 15:14:11,1.0.1.qitian,1

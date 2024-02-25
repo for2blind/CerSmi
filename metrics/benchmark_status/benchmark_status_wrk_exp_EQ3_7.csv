@@ -1,0 +1,2 @@
+wrkname,model,benchmark,init_time,version,deploy
+whole,BERT,bert-21b-whole,2024-01-15 04:51:13,1.0.1.qitian,1

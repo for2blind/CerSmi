@@ -1,0 +1,2 @@
+uuid,wrkname,scaling,scheduler,start_time,end_time,slo,collected,csv
+c4a09a6a-569f-4829-ab4f-d4349b880a2a,LATENCY,none,dasheng,1705944117,1705944752,5,0,metrics/wula_RR/exp_EP3_8/LATENCY/dasheng/1705944117/

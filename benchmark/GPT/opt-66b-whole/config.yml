@@ -1,0 +1,62 @@
+
+version: 1.0
+provider:
+    name: openfaas
+    gateway: http://serverless.siat.ac.cn:31112
+
+functions:
+    
+    opt-66b-wholemod-1-opt-66b-whole:
+        namespace: cdgp
+        lang: python3-http
+        handler: ./opt-66b-wholemod-1
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-opt-66b-wholemod-1-opt-66b-whole:2.8.2.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 21000m
+            memory: 64Gi
+        environment:
+            read_timeout: "3.33s"
+            write_timeout: "3.33s"
+            exec_timeout: "3.33s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    opt-66b-wholemod-0-opt-66b-whole:
+        namespace: cdgp
+        lang: python3-http
+        handler: ./opt-66b-wholemod-0
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-opt-66b-wholemod-0-opt-66b-whole:2.8.2.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 21000m
+            memory: 64Gi
+        environment:
+            read_timeout: "6.67s"
+            write_timeout: "6.67s"
+            exec_timeout: "6.67s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    opt-66b-wholemod-2-opt-66b-whole:
+        namespace: cdgp
+        lang: python3-http
+        handler: ./opt-66b-wholemod-2
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-opt-66b-wholemod-2-opt-66b-whole:2.8.2.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 20000m
+            memory: 64Gi
+        environment:
+            read_timeout: "10.0s"
+            write_timeout: "10.0s"
+            exec_timeout: "10.0s"
+            debug: "false"
+            infer_device: "cuda"
+    

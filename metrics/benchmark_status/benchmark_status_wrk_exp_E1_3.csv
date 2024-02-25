@@ -1,0 +1,6 @@
+wrkname,model,benchmark,init_time,version,deploy
+whole,BERT,bert-21b-whole,2024-01-02 11:53:00,1.0.1.qitian,0
+whole,GPT,opt-66b-whole,2024-01-02 11:53:00,1.0.1.qitian,1
+whole,LLAMA,llama-7b-whole,2024-01-02 11:53:00,1.0.1.qitian,0
+whole,WHISPER,whisper-large-v2-whole,2024-01-02 11:53:00,1.0.1.qitian,0
+whole,WIDERRESNET,wideresnet-9b-whole,2024-01-02 11:53:00,1.0.1.qitian,0

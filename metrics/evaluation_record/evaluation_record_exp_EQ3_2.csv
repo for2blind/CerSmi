@@ -1,0 +1,16 @@
+uuid,wrkname,scaling,scheduler,start_time,end_time,slo,gpus,collected,csv
+49ccc2e0-e29c-4afd-b595-24605364be2c,ME,dasheng,dasheng,1705215728,1705216363,10,2,0,metrics/wula/exp_EQ3_2/ME/dasheng/1705215728/
+76b40462-2705-49b9-a72a-ff3bc1a355fc,ME,dasheng,dasheng,1705216499,1705217131,10,4,0,metrics/wula/exp_EQ3_2/ME/dasheng/1705216499/
+112b5f58-b3bd-42f5-838b-757539fbb67f,ME,dasheng,dasheng,1705217259,1705217891,10,8,0,metrics/wula/exp_EQ3_2/ME/dasheng/1705217259/
+1f404466-6d6b-47e0-97b2-199c1015fabc,ME,dasheng,dasheng,1705218005,1705218634,10,6,0,metrics/wula/exp_EQ3_2/ME/dasheng/1705218005/
+40467e75-bf18-449c-bf01-4ccdf14412ce,ME,dasheng,dasheng,1705218907,1705219536,10,3,0,metrics/wula/exp_EQ3_2/ME/dasheng/1705218907/
+86b086eb-792a-4cbd-bf7b-9ff73f8e10a6,ME,dasheng,dasheng,1705219689,1705220323,10,5,0,metrics/wula/exp_EQ3_2/ME/dasheng/1705219689/
+80b98861-7dcf-470d-9401-0eb60621dd94,ME,dasheng,dasheng,1705220575,1705221208,10,7,0,metrics/wula/exp_EQ3_2/ME/dasheng/1705220575/
+a877023b-293d-46d4-99fb-652559cbbe19,ME,dasheng,dasheng,1705221579,1705222210,10,9,0,metrics/wula/exp_EQ3_2/ME/dasheng/1705221579/
+85b0758f-4691-445d-9ba8-c2bb8a2579de,ME,dasheng,dasheng,1705222998,1705223630,10,10,0,metrics/wula/exp_EQ3_2/ME/dasheng/1705222998/
+5e6051dd-6fe5-4761-907c-04c7290e1d56,ME,dasheng,dasheng,1705223791,1705224421,10,11,0,metrics/wula/exp_EQ3_2/ME/dasheng/1705223791/
+8739b676-0f58-44e1-a360-b2ce0d9af878,ME,dasheng,dasheng,1705229772,1705230405,10,12,0,metrics/wula/exp_EQ3_2/ME/dasheng/1705229772/
+33c68067-fe78-4cb3-8db1-e8d2f737416a,ME,dasheng,dasheng,1705230497,1705231127,10,13,0,metrics/wula/exp_EQ3_2/ME/dasheng/1705230497/
+89c3821c-2644-487e-92a4-474bb479ee53,ME,dasheng,dasheng,1705231336,1705231969,10,14,0,metrics/wula/exp_EQ3_2/ME/dasheng/1705231336/
+a0453614-a2bb-4d0f-91e9-65fcc6bc099e,ME,dasheng,dasheng,1705232084,1705232712,10,15,0,metrics/wula/exp_EQ3_2/ME/dasheng/1705232084/
+47f8285d-9d25-4f01-b316-212e7f76b919,ME,dasheng,dasheng,1705232874,1705233505,10,16,0,metrics/wula/exp_EQ3_2/ME/dasheng/1705232874/

@@ -1,0 +1,8 @@
+Flask[async]
+waitress
+tox==3.*
+transformers
+sentence_transformers
+aiohttp
+quart
+hypercorn

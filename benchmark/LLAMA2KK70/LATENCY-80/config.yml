@@ -1,0 +1,1448 @@
+
+version: 1.0
+provider:
+    name: openfaas
+    gateway: http://serverless.siat.ac.cn:31112
+
+functions:
+    
+    llama2-70b-submod-79-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-79
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-79-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "0.12s"
+            write_timeout: "0.12s"
+            exec_timeout: "0.12s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-78-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-78
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-78-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "0.25s"
+            write_timeout: "0.25s"
+            exec_timeout: "0.25s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-77-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-77
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-77-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "0.38s"
+            write_timeout: "0.38s"
+            exec_timeout: "0.38s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-76-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-76
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-76-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "0.5s"
+            write_timeout: "0.5s"
+            exec_timeout: "0.5s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-75-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-75
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-75-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "0.62s"
+            write_timeout: "0.62s"
+            exec_timeout: "0.62s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-74-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-74
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-74-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "0.75s"
+            write_timeout: "0.75s"
+            exec_timeout: "0.75s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-73-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-73
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-73-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "0.88s"
+            write_timeout: "0.88s"
+            exec_timeout: "0.88s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-72-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-72
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-72-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "1.0s"
+            write_timeout: "1.0s"
+            exec_timeout: "1.0s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-71-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-71
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-71-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "1.12s"
+            write_timeout: "1.12s"
+            exec_timeout: "1.12s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-70-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-70
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-70-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "1.25s"
+            write_timeout: "1.25s"
+            exec_timeout: "1.25s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-69-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-69
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-69-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "1.38s"
+            write_timeout: "1.38s"
+            exec_timeout: "1.38s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-68-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-68
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-68-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "1.5s"
+            write_timeout: "1.5s"
+            exec_timeout: "1.5s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-67-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-67
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-67-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "1.62s"
+            write_timeout: "1.62s"
+            exec_timeout: "1.62s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-66-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-66
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-66-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "1.75s"
+            write_timeout: "1.75s"
+            exec_timeout: "1.75s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-65-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-65
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-65-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "1.88s"
+            write_timeout: "1.88s"
+            exec_timeout: "1.88s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-64-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-64
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-64-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "2.0s"
+            write_timeout: "2.0s"
+            exec_timeout: "2.0s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-63-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-63
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-63-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "2.12s"
+            write_timeout: "2.12s"
+            exec_timeout: "2.12s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-62-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-62
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-62-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "2.25s"
+            write_timeout: "2.25s"
+            exec_timeout: "2.25s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-61-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-61
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-61-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "2.38s"
+            write_timeout: "2.38s"
+            exec_timeout: "2.38s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-60-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-60
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-60-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "2.5s"
+            write_timeout: "2.5s"
+            exec_timeout: "2.5s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-59-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-59
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-59-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "2.62s"
+            write_timeout: "2.62s"
+            exec_timeout: "2.62s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-58-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-58
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-58-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "2.75s"
+            write_timeout: "2.75s"
+            exec_timeout: "2.75s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-57-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-57
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-57-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "2.88s"
+            write_timeout: "2.88s"
+            exec_timeout: "2.88s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-56-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-56
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-56-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "3.0s"
+            write_timeout: "3.0s"
+            exec_timeout: "3.0s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-55-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-55
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-55-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "3.12s"
+            write_timeout: "3.12s"
+            exec_timeout: "3.12s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-54-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-54
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-54-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "3.25s"
+            write_timeout: "3.25s"
+            exec_timeout: "3.25s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-53-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-53
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-53-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "3.38s"
+            write_timeout: "3.38s"
+            exec_timeout: "3.38s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-52-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-52
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-52-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "3.5s"
+            write_timeout: "3.5s"
+            exec_timeout: "3.5s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-51-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-51
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-51-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "3.62s"
+            write_timeout: "3.62s"
+            exec_timeout: "3.62s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-50-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-50
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-50-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "3.75s"
+            write_timeout: "3.75s"
+            exec_timeout: "3.75s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-49-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-49
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-49-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "3.88s"
+            write_timeout: "3.88s"
+            exec_timeout: "3.88s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-48-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-48
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-48-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "4.0s"
+            write_timeout: "4.0s"
+            exec_timeout: "4.0s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-47-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-47
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-47-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "4.12s"
+            write_timeout: "4.12s"
+            exec_timeout: "4.12s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-46-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-46
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-46-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "4.25s"
+            write_timeout: "4.25s"
+            exec_timeout: "4.25s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-45-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-45
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-45-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "4.38s"
+            write_timeout: "4.38s"
+            exec_timeout: "4.38s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-44-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-44
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-44-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "4.5s"
+            write_timeout: "4.5s"
+            exec_timeout: "4.5s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-43-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-43
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-43-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "4.62s"
+            write_timeout: "4.62s"
+            exec_timeout: "4.62s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-42-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-42
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-42-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "4.75s"
+            write_timeout: "4.75s"
+            exec_timeout: "4.75s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-41-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-41
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-41-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "4.88s"
+            write_timeout: "4.88s"
+            exec_timeout: "4.88s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-40-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-40
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-40-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "5.0s"
+            write_timeout: "5.0s"
+            exec_timeout: "5.0s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-39-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-39
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-39-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "5.12s"
+            write_timeout: "5.12s"
+            exec_timeout: "5.12s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-38-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-38
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-38-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "5.25s"
+            write_timeout: "5.25s"
+            exec_timeout: "5.25s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-37-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-37
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-37-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "5.38s"
+            write_timeout: "5.38s"
+            exec_timeout: "5.38s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-36-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-36
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-36-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "5.5s"
+            write_timeout: "5.5s"
+            exec_timeout: "5.5s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-35-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-35
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-35-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "5.62s"
+            write_timeout: "5.62s"
+            exec_timeout: "5.62s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-34-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-34
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-34-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "5.75s"
+            write_timeout: "5.75s"
+            exec_timeout: "5.75s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-33-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-33
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-33-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "5.88s"
+            write_timeout: "5.88s"
+            exec_timeout: "5.88s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-32-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-32
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-32-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "6.0s"
+            write_timeout: "6.0s"
+            exec_timeout: "6.0s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-31-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-31
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-31-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "6.12s"
+            write_timeout: "6.12s"
+            exec_timeout: "6.12s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-30-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-30
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-30-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "6.25s"
+            write_timeout: "6.25s"
+            exec_timeout: "6.25s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-29-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-29
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-29-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "6.38s"
+            write_timeout: "6.38s"
+            exec_timeout: "6.38s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-28-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-28
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-28-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "6.5s"
+            write_timeout: "6.5s"
+            exec_timeout: "6.5s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-27-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-27
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-27-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "6.62s"
+            write_timeout: "6.62s"
+            exec_timeout: "6.62s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-26-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-26
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-26-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "6.75s"
+            write_timeout: "6.75s"
+            exec_timeout: "6.75s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-25-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-25
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-25-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "6.88s"
+            write_timeout: "6.88s"
+            exec_timeout: "6.88s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-24-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-24
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-24-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "7.0s"
+            write_timeout: "7.0s"
+            exec_timeout: "7.0s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-23-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-23
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-23-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "7.12s"
+            write_timeout: "7.12s"
+            exec_timeout: "7.12s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-22-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-22
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-22-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "7.25s"
+            write_timeout: "7.25s"
+            exec_timeout: "7.25s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-21-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-21
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-21-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "7.38s"
+            write_timeout: "7.38s"
+            exec_timeout: "7.38s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-20-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-20
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-20-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "7.5s"
+            write_timeout: "7.5s"
+            exec_timeout: "7.5s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-19-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-19
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-19-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "7.62s"
+            write_timeout: "7.62s"
+            exec_timeout: "7.62s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-18-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-18
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-18-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "7.75s"
+            write_timeout: "7.75s"
+            exec_timeout: "7.75s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-17-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-17
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-17-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "7.88s"
+            write_timeout: "7.88s"
+            exec_timeout: "7.88s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-16-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-16
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-16-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "8.0s"
+            write_timeout: "8.0s"
+            exec_timeout: "8.0s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-15-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-15
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-15-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "8.12s"
+            write_timeout: "8.12s"
+            exec_timeout: "8.12s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-14-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-14
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-14-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "8.25s"
+            write_timeout: "8.25s"
+            exec_timeout: "8.25s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-13-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-13
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-13-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "8.38s"
+            write_timeout: "8.38s"
+            exec_timeout: "8.38s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-12-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-12
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-12-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "8.5s"
+            write_timeout: "8.5s"
+            exec_timeout: "8.5s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-11-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-11
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-11-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "8.62s"
+            write_timeout: "8.62s"
+            exec_timeout: "8.62s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-10-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-10
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-10-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "8.75s"
+            write_timeout: "8.75s"
+            exec_timeout: "8.75s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-9-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-9
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-9-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "8.88s"
+            write_timeout: "8.88s"
+            exec_timeout: "8.88s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-8-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-8
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-8-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "9.0s"
+            write_timeout: "9.0s"
+            exec_timeout: "9.0s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-7-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-7
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-7-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "9.12s"
+            write_timeout: "9.12s"
+            exec_timeout: "9.12s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-6-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-6
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-6-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "9.25s"
+            write_timeout: "9.25s"
+            exec_timeout: "9.25s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-5-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-5
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-5-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "9.38s"
+            write_timeout: "9.38s"
+            exec_timeout: "9.38s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-4-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-4
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-4-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "9.5s"
+            write_timeout: "9.5s"
+            exec_timeout: "9.5s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-3-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-3
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-3-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "9.62s"
+            write_timeout: "9.62s"
+            exec_timeout: "9.62s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-2-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-2
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-2-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "9.75s"
+            write_timeout: "9.75s"
+            exec_timeout: "9.75s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-1-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-1
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-1-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "9.88s"
+            write_timeout: "9.88s"
+            exec_timeout: "9.88s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama2-70b-submod-0-latency-80:
+        namespace: dasheng
+        lang: python3-http
+        handler: ./llama2-70b-submod-0
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama2-70b-submod-0-latency-80:2.8.1.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 2000m
+            memory: 64Gi
+        environment:
+            read_timeout: "10.0s"
+            write_timeout: "10.0s"
+            exec_timeout: "10.0s"
+            debug: "false"
+            infer_device: "cuda"
+    

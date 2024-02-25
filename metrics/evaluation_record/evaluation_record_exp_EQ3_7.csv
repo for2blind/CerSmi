@@ -1,0 +1,11 @@
+uuid,wrkname,scaling,scheduler,start_time,end_time,slo,gpus,collected,csv
+0135ace5-b416-4a31-99ca-3236519134e7,whole,dasheng,dasheng,1705294415,1705295054,10,8,0,metrics/wula/exp_EQ3_7/whole/dasheng/1705294415/
+3cf56d15-d903-4aa1-b9ca-ed55dc935a8e,whole,dasheng,dasheng,1705295271,1705295895,10,16,0,metrics/wula/exp_EQ3_7/whole/dasheng/1705295271/
+82b8f8cc-257a-47a9-906e-0a6938632365,whole,dasheng,dasheng,1705296074,1705296706,10,24,0,metrics/wula/exp_EQ3_7/whole/dasheng/1705296074/
+912812d9-f310-4872-94e5-61ca6b3b35a3,whole,dasheng,dasheng,1705296923,1705297565,10,8,0,metrics/wula/exp_EQ3_7/whole/dasheng/1705296923/
+9a9fae99-9d36-48a3-a6b1-b4bcfe3311a4,whole,dasheng,dasheng,1705298473,1705299116,10,8,0,metrics/wula/exp_EQ3_7/whole/dasheng/1705298473/
+13af62c5-ddea-4eaf-bf44-c9b1ca6bc235,whole,dasheng,dasheng,1705299534,1705300173,10,8,0,metrics/wula/exp_EQ3_7/whole/dasheng/1705299534/
+8f6b7e6c-2039-4a98-81a4-d6e206b1decd,whole,dasheng,dasheng,1705307289,1705307926,10,16,0,metrics/wula/exp_EQ3_7/whole/dasheng/1705307289/
+80c85133-f4c5-40e5-b1f1-0ff68214032c,whole,dasheng,dasheng,1705308449,1705309082,10,24,0,metrics/wula/exp_EQ3_7/whole/dasheng/1705308449/
+3eaa358c-8d32-4b81-8b6d-c1fcbb8e9f40,whole,dasheng,dasheng,1705309232,1705309872,10,32,0,metrics/wula/exp_EQ3_7/whole/dasheng/1705309232/
+b5fdf644-6758-42ec-9c83-68c95d982703,whole,dasheng,dasheng,1705310085,1705310716,10,8,0,metrics/wula/exp_EQ3_7/whole/dasheng/1705310085/
