@@ -1,0 +1,26 @@
+
+version: 1.0
+provider:
+    name: openfaas
+    gateway: http://serverless.siat.ac.cn:31112
+
+functions:
+    
+    bert-21b-wholemod-bert-21b-whole:
+        namespace: cdgp
+        lang: python3-http
+        handler: ./bert-21b-wholemod
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-bert-21b-wholemod-bert-21b-whole:2.8.2.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 21000m
+            memory: 64Gi
+        environment:
+            read_timeout: "10.0s"
+            write_timeout: "10.0s"
+            exec_timeout: "10.0s"
+            debug: "false"
+            infer_device: "cuda"
+    

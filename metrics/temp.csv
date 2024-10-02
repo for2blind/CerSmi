@@ -1,0 +1,16 @@
+c6d1614b-c898-4f3e-b247-651f27884e76,BERT,ME-21,32,cdgp-x,default,azure,1680099266,1680100168,10,0
+8738521e-f24e-43d5-91de-6fcab6f1e8f1,BERT,ME-21,32,cdgp-x,default,azure,1680104390,1680105291,10,0
+28aaa9f7-4d7e-45e2-8f17-cc34c539bcf8,BERT,ME-21,32,cdgp-x,default,azure,1680105945,1680106847,10,0
+ed4f61f0-c81b-4e10-9f4d-6f6cddeda8b9,BERT,ME-21,32,cdgp-x,default,azure,1680135699,1680136601,10,0
+1afb9063-2868-40a3-9948-5e9a46887551,BERT,ME-21,32,异步调用+直接扩容5+吞吐18,default,azure,1680146989,1680147891,10,0
+b6d0fd42-50c6-4148-80ca-514f2e354c72,BERT,ME-21,32,异步调用+直接扩容8+吞吐21.740289,default,azure,1680148774,1680149675,10,0
+471a1f5b-a05f-4d07-acbe-18d46648001e,GPT,opt-66b-whole,32,cdgp-x,default,azure,1680160088,1680160990,10,0
+7b699e66-b109-49fa-b7b3-04cce60522bb,BERT,ME-21,32,cdgp-x,default,azure,1680154998,1680155901,10,0
+2be2d812-ff4f-46cc-9740-dec6d818637a,BERT,ME-21,32,同步调用+scaling8+吞吐23,default,azure,1680227361,1680228263,10,0
+bebf2bdc-6537-490d-8647-27bca2509345,GPT,opt-66b-whole,32,没有冷启动+扩容4+吞吐18.621951,default,azure,1680232472,1680233374,10,0
+
+
+
+9dc3c920-ce2b-4d39-ab15-1966d11426b7,ME,default,baseline,1685416116,1685419117,3,0 #ME 扩缩容第一轮，避免http cache和子图500返回成功；有较多503。缩容时机问题。
+
+45ffe286-c24a-468e-b621-b75bf033853c,whole,default,baseline,1685721384,1685724385,3,0 #whole CPU-50 扩缩容，未及时扩缩容，503+500超时很多

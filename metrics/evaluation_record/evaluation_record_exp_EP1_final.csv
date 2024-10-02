@@ -1,0 +1,6 @@
+uuid,wrkname,scaling,scheduler,start_time,end_time,slo,collected,csv
+8bec16b2-5a16-49ac-88c6-a7d9872a6ec9,ME,none,dasheng,1705406643,1705407274,5,1,metrics/wula_RR/exp_EP1_1/ME/dasheng/1705406643/
+3fa011ef-cdf9-4aa6-bcbb-3ca8e67c1858,LATENCY,none,dasheng,1705407949,1705408580,5,1,metrics/wula_RR/exp_EP1_1/LATENCY/dasheng/1705407949/
+16dc7250-5aef-4932-8d11-808939ba3f1c,PARAM,none,dasheng,1705552614,1705553246,5,1,metrics/wula_RR/exp_EP1_2/PARAM/dasheng/1705552614/
+20aa9a76-0294-45c0-82bf-df015bc721a0,TIME,none,dasheng,1705410776,1705411411,5,1,metrics/wula_RR/exp_EP1_1/TIME/dasheng/1705410776/
+cef75651-687a-49b2-9c6b-832fd2a408d2,whole,none,dasheng,1705411892,1705412523,5,1,metrics/wula_RR/exp_EP1_1/whole/dasheng/1705411892/

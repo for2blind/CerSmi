@@ -1,0 +1,404 @@
+
+version: 1.0
+provider:
+    name: openfaas
+    gateway: http://serverless.siat.ac.cn:31112
+
+functions:
+    
+    opt-66b-submod-21-me-22:
+        namespace: cdgp
+        lang: python3-http
+        handler: ./opt-66b-submod-21
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-opt-66b-submod-21-me-22:2.8.2.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 3000m
+            memory: 64Gi
+        environment:
+            read_timeout: "0.45s"
+            write_timeout: "0.45s"
+            exec_timeout: "0.45s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    opt-66b-submod-20-me-22:
+        namespace: cdgp
+        lang: python3-http
+        handler: ./opt-66b-submod-20
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-opt-66b-submod-20-me-22:2.8.2.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 3000m
+            memory: 64Gi
+        environment:
+            read_timeout: "0.91s"
+            write_timeout: "0.91s"
+            exec_timeout: "0.91s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    opt-66b-submod-19-me-22:
+        namespace: cdgp
+        lang: python3-http
+        handler: ./opt-66b-submod-19
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-opt-66b-submod-19-me-22:2.8.2.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 3000m
+            memory: 64Gi
+        environment:
+            read_timeout: "1.36s"
+            write_timeout: "1.36s"
+            exec_timeout: "1.36s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    opt-66b-submod-18-me-22:
+        namespace: cdgp
+        lang: python3-http
+        handler: ./opt-66b-submod-18
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-opt-66b-submod-18-me-22:2.8.2.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 3000m
+            memory: 64Gi
+        environment:
+            read_timeout: "1.82s"
+            write_timeout: "1.82s"
+            exec_timeout: "1.82s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    opt-66b-submod-17-me-22:
+        namespace: cdgp
+        lang: python3-http
+        handler: ./opt-66b-submod-17
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-opt-66b-submod-17-me-22:2.8.2.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 3000m
+            memory: 64Gi
+        environment:
+            read_timeout: "2.27s"
+            write_timeout: "2.27s"
+            exec_timeout: "2.27s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    opt-66b-submod-16-me-22:
+        namespace: cdgp
+        lang: python3-http
+        handler: ./opt-66b-submod-16
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-opt-66b-submod-16-me-22:2.8.2.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 3000m
+            memory: 64Gi
+        environment:
+            read_timeout: "2.73s"
+            write_timeout: "2.73s"
+            exec_timeout: "2.73s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    opt-66b-submod-15-me-22:
+        namespace: cdgp
+        lang: python3-http
+        handler: ./opt-66b-submod-15
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-opt-66b-submod-15-me-22:2.8.2.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 3000m
+            memory: 64Gi
+        environment:
+            read_timeout: "3.18s"
+            write_timeout: "3.18s"
+            exec_timeout: "3.18s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    opt-66b-submod-14-me-22:
+        namespace: cdgp
+        lang: python3-http
+        handler: ./opt-66b-submod-14
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-opt-66b-submod-14-me-22:2.8.2.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 3000m
+            memory: 64Gi
+        environment:
+            read_timeout: "3.64s"
+            write_timeout: "3.64s"
+            exec_timeout: "3.64s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    opt-66b-submod-13-me-22:
+        namespace: cdgp
+        lang: python3-http
+        handler: ./opt-66b-submod-13
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-opt-66b-submod-13-me-22:2.8.2.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 3000m
+            memory: 64Gi
+        environment:
+            read_timeout: "4.09s"
+            write_timeout: "4.09s"
+            exec_timeout: "4.09s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    opt-66b-submod-12-me-22:
+        namespace: cdgp
+        lang: python3-http
+        handler: ./opt-66b-submod-12
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-opt-66b-submod-12-me-22:2.8.2.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 3000m
+            memory: 64Gi
+        environment:
+            read_timeout: "4.55s"
+            write_timeout: "4.55s"
+            exec_timeout: "4.55s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    opt-66b-submod-11-me-22:
+        namespace: cdgp
+        lang: python3-http
+        handler: ./opt-66b-submod-11
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-opt-66b-submod-11-me-22:2.8.2.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 3000m
+            memory: 64Gi
+        environment:
+            read_timeout: "5.0s"
+            write_timeout: "5.0s"
+            exec_timeout: "5.0s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    opt-66b-submod-10-me-22:
+        namespace: cdgp
+        lang: python3-http
+        handler: ./opt-66b-submod-10
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-opt-66b-submod-10-me-22:2.8.2.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 3000m
+            memory: 64Gi
+        environment:
+            read_timeout: "5.45s"
+            write_timeout: "5.45s"
+            exec_timeout: "5.45s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    opt-66b-submod-9-me-22:
+        namespace: cdgp
+        lang: python3-http
+        handler: ./opt-66b-submod-9
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-opt-66b-submod-9-me-22:2.8.2.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 3000m
+            memory: 64Gi
+        environment:
+            read_timeout: "5.91s"
+            write_timeout: "5.91s"
+            exec_timeout: "5.91s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    opt-66b-submod-8-me-22:
+        namespace: cdgp
+        lang: python3-http
+        handler: ./opt-66b-submod-8
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-opt-66b-submod-8-me-22:2.8.2.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 3000m
+            memory: 64Gi
+        environment:
+            read_timeout: "6.36s"
+            write_timeout: "6.36s"
+            exec_timeout: "6.36s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    opt-66b-submod-7-me-22:
+        namespace: cdgp
+        lang: python3-http
+        handler: ./opt-66b-submod-7
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-opt-66b-submod-7-me-22:2.8.2.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 3000m
+            memory: 64Gi
+        environment:
+            read_timeout: "6.82s"
+            write_timeout: "6.82s"
+            exec_timeout: "6.82s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    opt-66b-submod-6-me-22:
+        namespace: cdgp
+        lang: python3-http
+        handler: ./opt-66b-submod-6
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-opt-66b-submod-6-me-22:2.8.2.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 3000m
+            memory: 64Gi
+        environment:
+            read_timeout: "7.27s"
+            write_timeout: "7.27s"
+            exec_timeout: "7.27s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    opt-66b-submod-5-me-22:
+        namespace: cdgp
+        lang: python3-http
+        handler: ./opt-66b-submod-5
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-opt-66b-submod-5-me-22:2.8.2.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 3000m
+            memory: 64Gi
+        environment:
+            read_timeout: "7.73s"
+            write_timeout: "7.73s"
+            exec_timeout: "7.73s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    opt-66b-submod-4-me-22:
+        namespace: cdgp
+        lang: python3-http
+        handler: ./opt-66b-submod-4
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-opt-66b-submod-4-me-22:2.8.2.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 3000m
+            memory: 64Gi
+        environment:
+            read_timeout: "8.18s"
+            write_timeout: "8.18s"
+            exec_timeout: "8.18s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    opt-66b-submod-3-me-22:
+        namespace: cdgp
+        lang: python3-http
+        handler: ./opt-66b-submod-3
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-opt-66b-submod-3-me-22:2.8.2.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 3000m
+            memory: 64Gi
+        environment:
+            read_timeout: "8.64s"
+            write_timeout: "8.64s"
+            exec_timeout: "8.64s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    opt-66b-submod-2-me-22:
+        namespace: cdgp
+        lang: python3-http
+        handler: ./opt-66b-submod-2
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-opt-66b-submod-2-me-22:2.8.2.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 3000m
+            memory: 64Gi
+        environment:
+            read_timeout: "9.09s"
+            write_timeout: "9.09s"
+            exec_timeout: "9.09s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    opt-66b-submod-1-me-22:
+        namespace: cdgp
+        lang: python3-http
+        handler: ./opt-66b-submod-1
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-opt-66b-submod-1-me-22:2.8.2.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 3000m
+            memory: 64Gi
+        environment:
+            read_timeout: "9.55s"
+            write_timeout: "9.55s"
+            exec_timeout: "9.55s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    opt-66b-submod-0-me-22:
+        namespace: cdgp
+        lang: python3-http
+        handler: ./opt-66b-submod-0
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-opt-66b-submod-0-me-22:2.8.2.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 2000m
+            memory: 64Gi
+        environment:
+            read_timeout: "10.0s"
+            write_timeout: "10.0s"
+            exec_timeout: "10.0s"
+            debug: "false"
+            infer_device: "cuda"
+    

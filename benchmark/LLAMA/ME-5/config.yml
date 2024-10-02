@@ -1,0 +1,98 @@
+
+version: 1.0
+provider:
+    name: openfaas
+    gateway: http://serverless.siat.ac.cn:31112
+
+functions:
+    
+    llama-7b-submod-4-me-5:
+        namespace: cdgp
+        lang: python3-http
+        handler: ./llama-7b-submod-4
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama-7b-submod-4-me-5:2.8.2.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 2000m
+            memory: 64Gi
+        environment:
+            read_timeout: "2.0s"
+            write_timeout: "2.0s"
+            exec_timeout: "2.0s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama-7b-submod-3-me-5:
+        namespace: cdgp
+        lang: python3-http
+        handler: ./llama-7b-submod-3
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama-7b-submod-3-me-5:2.8.2.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 2000m
+            memory: 64Gi
+        environment:
+            read_timeout: "4.0s"
+            write_timeout: "4.0s"
+            exec_timeout: "4.0s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama-7b-submod-2-me-5:
+        namespace: cdgp
+        lang: python3-http
+        handler: ./llama-7b-submod-2
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama-7b-submod-2-me-5:2.8.2.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 2000m
+            memory: 64Gi
+        environment:
+            read_timeout: "6.0s"
+            write_timeout: "6.0s"
+            exec_timeout: "6.0s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama-7b-submod-1-me-5:
+        namespace: cdgp
+        lang: python3-http
+        handler: ./llama-7b-submod-1
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama-7b-submod-1-me-5:2.8.2.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 2000m
+            memory: 64Gi
+        environment:
+            read_timeout: "8.0s"
+            write_timeout: "8.0s"
+            exec_timeout: "8.0s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    llama-7b-submod-0-me-5:
+        namespace: cdgp
+        lang: python3-http
+        handler: ./llama-7b-submod-0
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-llama-7b-submod-0-me-5:2.8.2.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 1000m
+            memory: 64Gi
+        environment:
+            read_timeout: "10.0s"
+            write_timeout: "10.0s"
+            exec_timeout: "10.0s"
+            debug: "false"
+            infer_device: "cuda"
+    

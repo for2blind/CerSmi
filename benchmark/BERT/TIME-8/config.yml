@@ -1,0 +1,152 @@
+
+version: 1.0
+provider:
+    name: openfaas
+    gateway: http://serverless.siat.ac.cn:31112
+
+functions:
+    
+    bert-21b-submod-7-time-8:
+        namespace: cdgp
+        lang: python3-http
+        handler: ./bert-21b-submod-7
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-bert-21b-submod-7-time-8:2.8.2.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 3000m
+            memory: 64Gi
+        environment:
+            read_timeout: "1.25s"
+            write_timeout: "1.25s"
+            exec_timeout: "1.25s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    bert-21b-submod-6-time-8:
+        namespace: cdgp
+        lang: python3-http
+        handler: ./bert-21b-submod-6
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-bert-21b-submod-6-time-8:2.8.2.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 3000m
+            memory: 64Gi
+        environment:
+            read_timeout: "2.5s"
+            write_timeout: "2.5s"
+            exec_timeout: "2.5s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    bert-21b-submod-5-time-8:
+        namespace: cdgp
+        lang: python3-http
+        handler: ./bert-21b-submod-5
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-bert-21b-submod-5-time-8:2.8.2.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 3000m
+            memory: 64Gi
+        environment:
+            read_timeout: "3.75s"
+            write_timeout: "3.75s"
+            exec_timeout: "3.75s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    bert-21b-submod-4-time-8:
+        namespace: cdgp
+        lang: python3-http
+        handler: ./bert-21b-submod-4
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-bert-21b-submod-4-time-8:2.8.2.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 3000m
+            memory: 64Gi
+        environment:
+            read_timeout: "5.0s"
+            write_timeout: "5.0s"
+            exec_timeout: "5.0s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    bert-21b-submod-3-time-8:
+        namespace: cdgp
+        lang: python3-http
+        handler: ./bert-21b-submod-3
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-bert-21b-submod-3-time-8:2.8.2.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 3000m
+            memory: 64Gi
+        environment:
+            read_timeout: "6.25s"
+            write_timeout: "6.25s"
+            exec_timeout: "6.25s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    bert-21b-submod-2-time-8:
+        namespace: cdgp
+        lang: python3-http
+        handler: ./bert-21b-submod-2
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-bert-21b-submod-2-time-8:2.8.2.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 3000m
+            memory: 64Gi
+        environment:
+            read_timeout: "7.5s"
+            write_timeout: "7.5s"
+            exec_timeout: "7.5s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    bert-21b-submod-1-time-8:
+        namespace: cdgp
+        lang: python3-http
+        handler: ./bert-21b-submod-1
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-bert-21b-submod-1-time-8:2.8.2.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 3000m
+            memory: 64Gi
+        environment:
+            read_timeout: "8.75s"
+            write_timeout: "8.75s"
+            exec_timeout: "8.75s"
+            debug: "false"
+            infer_device: "cuda"
+    
+    bert-21b-submod-0-time-8:
+        namespace: cdgp
+        lang: python3-http
+        handler: ./bert-21b-submod-0
+        image: k.harbor.siat.ac.cn/openfaas/cdgp-bert-21b-submod-0-time-8:2.8.2.dasheng
+        requests:
+            cpu: 1000m
+            memory: 8Gi
+        limits:
+            cpu: 3000m
+            memory: 64Gi
+        environment:
+            read_timeout: "10.0s"
+            write_timeout: "10.0s"
+            exec_timeout: "10.0s"
+            debug: "false"
+            infer_device: "cuda"
+    

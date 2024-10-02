@@ -1,0 +1,5 @@
+uuid,wrkname,scaling,scheduler,start_time,end_time,slo,gpus,collected,csv
+c7c01ae4-fbb3-4c29-9c63-22c3826f6553,PARAM,dasheng,dasheng,1705386771,1705387415,10,4,1,metrics/wula/exp_EQ3_11/PARAM/dasheng/1705386771/
+4278904c-419c-4360-9f4e-ae960ddc5553,PARAM,dasheng,dasheng,1705387558,1705388198,10,8,1,metrics/wula/exp_EQ3_11/PARAM/dasheng/1705387558/
+bb0b7d7b-f5d0-4c9f-9cd4-36c9eaddc2b7,PARAM,dasheng,dasheng,1705388460,1705389076,10,12,1,metrics/wula/exp_EQ3_11/PARAM/dasheng/1705388460/
+ea53f097-2a7b-4b60-802c-1963e7ed96bd,PARAM,dasheng,dasheng,1705389959,1705390581,10,16,1,metrics/wula/exp_EQ3_11/PARAM/dasheng/1705389959/
